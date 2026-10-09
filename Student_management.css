@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(255, 201, 231);
+    text-align:center
+}
+#Home{
+    text-align: center;
+    font-size: 21px;
+    padding-right:50px;
+    margin-left:100px;
+}
+#Student{
+    text-align: center;
+    font-size: 21px;
+    padding-right:50px;
+}
+#Contact{
+    text-align: center;
+    font-size: 21px;
+    padding-right:50px;
+}
+#studentForm{
+    font-size:21px;
+    margin-left 100px;
+}

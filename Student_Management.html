@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="background-color: rgb(255, 118, 219);">Student Management System</title>
+    <link rel="stylesheet" href="Student_management.css">
+</head>
+<body>
+
+    <div class="Heading">
+        <h1><b>STUDENT MANAGEMENT SYSTEM</b></h1>
+    </div>
+    <br>
+
+    <div class="Nav">
+        <table>
+            <tr>
+                <td><div id="Home">Home</div></td>
+                <td><div id="Student" onclick="viewStudent()">View Student</div></td>
+                <td><div id="Contact">Contact</div></td>
+            </tr>
+        </table><br>
+
+        <form id="studentForm">
+            <label for="myInput">Enter the Name</label>
+            <input type="text" id="myInput" placeholder="Enter student name">
+        </form><br>
+
+        <div id="Click">
+            <button type="button" onclick="Add()">ADD</button>
+            <button type="button" onclick="Delete()">DELETE</button>
+        </div>
+
+        <div id="Store" style="display: none;"></div>
+    </div>
+
+    <script src="Student_management.js"></script>
+</body>
+</html>
